@@ -4,6 +4,9 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>FontAwesome5Brands-Regular-400.otf</string>
+		<string>FontAwesome5Free-Regular-400.otf</string>
+		<string>FontAwesome5Free-Solid-900.otf</string>
 		<string>Averta-Regular.otf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>

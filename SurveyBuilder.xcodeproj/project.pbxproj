@@ -9,25 +9,39 @@
 /* Begin PBXBuildFile section */
 		C0E970882541ED7500BF0E59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E970872541ED7500BF0E59 /* AppDelegate.swift */; };
 		C0E9708A2541ED7500BF0E59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E970892541ED7500BF0E59 /* SceneDelegate.swift */; };
-		C0E9708C2541ED7500BF0E59 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E9708B2541ED7500BF0E59 /* MainViewController.swift */; };
+		C0E9708C2541ED7500BF0E59 /* EditSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E9708B2541ED7500BF0E59 /* EditSurveyViewController.swift */; };
 		C0E970912541ED9900BF0E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E970902541ED9900BF0E59 /* Assets.xcassets */; };
 		C0E970942541ED9900BF0E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E970922541ED9900BF0E59 /* LaunchScreen.storyboard */; };
 		C0FD41692541F3A300AA96BD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FD41682541F3A300AA96BD /* Colors.swift */; };
 		C0FD417725420AC600AA96BD /* Averta-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C0FD417525420A0A00AA96BD /* Averta-Regular.otf */; };
 		C0FD417A25420B3A00AA96BD /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FD417925420B3A00AA96BD /* Fonts.swift */; };
+		C0FD41802542278600AA96BD /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FD417F2542278600AA96BD /* MainTabBarController.swift */; };
+		C0FD41852542289500AA96BD /* ShowSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FD41842542289500AA96BD /* ShowSurveyViewController.swift */; };
+		C0FD4188254228FC00AA96BD /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FD4187254228FC00AA96BD /* ResultsViewController.swift */; };
+		C0FD419225422CFF00AA96BD /* FontAwesome5Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = C0FD418F25422CC600AA96BD /* FontAwesome5Free-Regular-400.otf */; };
+		C0FD419425422D0100AA96BD /* FontAwesome5Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = C0FD419025422CC600AA96BD /* FontAwesome5Brands-Regular-400.otf */; };
+		C0FD419625422D0300AA96BD /* FontAwesome5Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = C0FD419125422CC600AA96BD /* FontAwesome5Free-Solid-900.otf */; };
+		C0FD41992542383600AA96BD /* FontAwesomeIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FD41982542383600AA96BD /* FontAwesomeIcons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C0E970842541ED7500BF0E59 /* SurveyBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurveyBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E970872541ED7500BF0E59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0E970892541ED7500BF0E59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C0E9708B2541ED7500BF0E59 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C0E9708B2541ED7500BF0E59 /* EditSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSurveyViewController.swift; sourceTree = "<group>"; };
 		C0E970902541ED9900BF0E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0E970932541ED9900BF0E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0E970952541ED9900BF0E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0FD41682541F3A300AA96BD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		C0FD417525420A0A00AA96BD /* Averta-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta-Regular.otf"; sourceTree = "<group>"; };
 		C0FD417925420B3A00AA96BD /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		C0FD417F2542278600AA96BD /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		C0FD41842542289500AA96BD /* ShowSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSurveyViewController.swift; sourceTree = "<group>"; };
+		C0FD4187254228FC00AA96BD /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		C0FD418F25422CC600AA96BD /* FontAwesome5Free-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FontAwesome5Free-Regular-400.otf"; sourceTree = "<group>"; };
+		C0FD419025422CC600AA96BD /* FontAwesome5Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FontAwesome5Brands-Regular-400.otf"; sourceTree = "<group>"; };
+		C0FD419125422CC600AA96BD /* FontAwesome5Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FontAwesome5Free-Solid-900.otf"; sourceTree = "<group>"; };
+		C0FD41982542383600AA96BD /* FontAwesomeIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesomeIcons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +74,10 @@
 		C0E970862541ED7500BF0E59 /* SurveyBuilder */ = {
 			isa = PBXGroup;
 			children = (
-				C0FD41672541F37E00AA96BD /* UIReferences */,
+				C0FD417C254224DE00AA96BD /* Views */,
+				C0FD41672541F37E00AA96BD /* References */,
 				C0E970872541ED7500BF0E59 /* AppDelegate.swift */,
 				C0E970892541ED7500BF0E59 /* SceneDelegate.swift */,
-				C0E9708B2541ED7500BF0E59 /* MainViewController.swift */,
 				C0E970902541ED9900BF0E59 /* Assets.xcassets */,
 				C0E970922541ED9900BF0E59 /* LaunchScreen.storyboard */,
 				C0E970952541ED9900BF0E59 /* Info.plist */,
@@ -71,22 +85,37 @@
 			path = SurveyBuilder;
 			sourceTree = "<group>";
 		};
-		C0FD41672541F37E00AA96BD /* UIReferences */ = {
+		C0FD41672541F37E00AA96BD /* References */ = {
 			isa = PBXGroup;
 			children = (
-				C0FD417425420A0300AA96BD /* fonts */,
+				C0FD417425420A0300AA96BD /* Fonts */,
 				C0FD41682541F3A300AA96BD /* Colors.swift */,
+				C0FD41982542383600AA96BD /* FontAwesomeIcons.swift */,
 			);
-			path = UIReferences;
+			path = References;
 			sourceTree = "<group>";
 		};
-		C0FD417425420A0300AA96BD /* fonts */ = {
+		C0FD417425420A0300AA96BD /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				C0FD419025422CC600AA96BD /* FontAwesome5Brands-Regular-400.otf */,
+				C0FD418F25422CC600AA96BD /* FontAwesome5Free-Regular-400.otf */,
+				C0FD419125422CC600AA96BD /* FontAwesome5Free-Solid-900.otf */,
 				C0FD417525420A0A00AA96BD /* Averta-Regular.otf */,
 				C0FD417925420B3A00AA96BD /* Fonts.swift */,
 			);
-			path = fonts;
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C0FD417C254224DE00AA96BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C0E9708B2541ED7500BF0E59 /* EditSurveyViewController.swift */,
+				C0FD41842542289500AA96BD /* ShowSurveyViewController.swift */,
+				C0FD4187254228FC00AA96BD /* ResultsViewController.swift */,
+				C0FD417F2542278600AA96BD /* MainTabBarController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +175,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0FD419625422D0300AA96BD /* FontAwesome5Free-Solid-900.otf in Resources */,
+				C0FD419225422CFF00AA96BD /* FontAwesome5Free-Regular-400.otf in Resources */,
 				C0E970942541ED9900BF0E59 /* LaunchScreen.storyboard in Resources */,
 				C0FD417725420AC600AA96BD /* Averta-Regular.otf in Resources */,
 				C0E970912541ED9900BF0E59 /* Assets.xcassets in Resources */,
+				C0FD419425422D0100AA96BD /* FontAwesome5Brands-Regular-400.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,11 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0E9708C2541ED7500BF0E59 /* MainViewController.swift in Sources */,
+				C0E9708C2541ED7500BF0E59 /* EditSurveyViewController.swift in Sources */,
 				C0FD417A25420B3A00AA96BD /* Fonts.swift in Sources */,
+				C0FD41992542383600AA96BD /* FontAwesomeIcons.swift in Sources */,
+				C0FD41802542278600AA96BD /* MainTabBarController.swift in Sources */,
+				C0FD4188254228FC00AA96BD /* ResultsViewController.swift in Sources */,
 				C0FD41692541F3A300AA96BD /* Colors.swift in Sources */,
 				C0E970882541ED7500BF0E59 /* AppDelegate.swift in Sources */,
 				C0E9708A2541ED7500BF0E59 /* SceneDelegate.swift in Sources */,
+				C0FD41852542289500AA96BD /* ShowSurveyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
