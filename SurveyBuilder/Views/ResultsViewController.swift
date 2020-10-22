@@ -25,7 +25,7 @@ final class ResultsViewController: UIViewController {
         let label = UILabel()
         label.text = "Results navigation controller!"
         label.font = .avertaRegular
-        label.textColor = .grayBlue
+        label.textColor = .darkGrayBlue
         label.adjustsFontForContentSizeCategory = true
         label.translatesAutoresizingMaskIntoConstraints = false
         return label

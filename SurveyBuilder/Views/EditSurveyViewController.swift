@@ -25,7 +25,7 @@ final class EditSurveyViewController: UIViewController {
         let label = UILabel()
         label.text = "Edit survey navigation controller!"
         label.font = .avertaRegular
-        label.textColor = .grayBlue
+        label.textColor = .darkGrayBlue
         label.adjustsFontForContentSizeCategory = true
         label.translatesAutoresizingMaskIntoConstraints = false
         return label

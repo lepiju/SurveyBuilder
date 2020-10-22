@@ -11,23 +11,22 @@ final class MainTabBarController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        tabBar.tintColor = .grayBlue
+        tabBar.tintColor = .paleGrayBlue
         setupTabBar()
     }
     
     func setupTabBar() {
                 
         let editController = UINavigationController(rootViewController: EditSurveyViewController())
-        editController.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.fontAwesomeRegular], for: .normal)
+        editController.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.fontAwesomeRegular.withSize(20)], for: .normal)
         editController.tabBarItem.title = .edit
-        
+         
         let showController = UINavigationController(rootViewController: ShowSurveyViewController())
-        showController.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.fontAwesomeRegular], for: .normal)
+        showController.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.fontAwesomeRegular.withSize(20)], for: .normal)
         showController.tabBarItem.title = .playCircle
         
         let resultsController = UINavigationController(rootViewController: ResultsViewController())
-        resultsController.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.fontAwesomeRegular], for: .normal)
+        resultsController.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.fontAwesomeRegular.withSize(20)], for: .normal)
         resultsController.tabBarItem.title = .clipboard
         
         viewControllers = [editController, showController, resultsController]

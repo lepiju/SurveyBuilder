@@ -25,7 +25,7 @@ final class ShowSurveyViewController: UIViewController {
         let label = UILabel()
         label.text = "Show survey navigation controller!"
         label.font = .avertaRegular
-        label.textColor = .grayBlue
+        label.textColor = .darkGrayBlue
         label.adjustsFontForContentSizeCategory = true
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
